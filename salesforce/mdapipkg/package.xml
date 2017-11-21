@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>scala-salesforce-sample</fullName>
+    <types>
+        <members>SampleData__c.SampleNumber__c</members>
+        <members>SampleData__c.SampleText__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>SampleData__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SampleData__c-サンプルデータレイアウト</members>
+        <name>Layout</name>
+    </types>
+    <version>41.0</version>
+</Package>
