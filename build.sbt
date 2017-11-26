@@ -8,6 +8,7 @@ lazy val root = (project in file(".")).
     name := "Hello",
     libraryDependencies ++= Seq(
       "org.scalaj" %% "scalaj-http" % "2.3.0",
+      "io.spray" %%  "spray-json" % "1.3.3",
       "org.scalatest" %% "scalatest" % "3.0.3" % "test"
     )
   )
